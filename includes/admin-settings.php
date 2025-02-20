@@ -20,7 +20,6 @@ class WC_Product_Attachments_Admin_Settings {
         register_setting('product_attachments_settings', 'pa_tab_title');
         register_setting('product_attachments_settings', 'pa_shortcode_title');
         register_setting('product_attachments_settings', 'pa_display_method');
-        register_setting('product_attachments_settings', 'pa_hide_if_empty'); // Register new setting
     }
 
     public function settings_page_html() {
@@ -49,12 +48,6 @@ class WC_Product_Attachments_Admin_Settings {
                         <th scope="row">Shortcode Title</th>
                         <td>
                             <input type="text" name="pa_shortcode_title" value="<?php echo esc_attr(get_option('pa_shortcode_title', 'Downloads')); ?>" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Hide if Empty</th>
-                        <td>
-                            <input type="checkbox" name="pa_hide_if_empty" value="1" <?php checked(get_option('pa_hide_if_empty'), 1); ?> />
                         </td>
                     </tr>
                 </table>

@@ -3,7 +3,7 @@
 Plugin Name: Product Attachment for WooCommerce
 Plugin URI: https://makemehappy.sk/produkt/product-attachment-for-woocommerce/
 Description: Add downloadable attachments to WooCommerce products
-Version: 1.2
+Version: 1.1
 Author: MakeMeHappy
 Author URI: https://makemehappy.sk
 Donate link: https://makemehappy.sk/donate
