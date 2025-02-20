@@ -1,0 +1,12 @@
+/* Product Attachments buttons spacing */
+.product-attachments .pa-download {
+    margin: 0px 0;
+    width: max-content;
+    border-radius: 5px;
+}
+
+.product-attachments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
